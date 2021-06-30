@@ -1,0 +1,55 @@
+/* FOOTER */
+.footer {
+    background: url('../../assets/images/background-cinza.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-box {
+    max-width: 986px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-content {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    max-width: 689px;
+    width: 100%;
+}
+.footer-content h3 {
+    margin: 0;
+    color: #434445;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.footer-content p {
+    color: #434445;
+    font-size: 12px;
+}
+
+.footer-end {
+    background: #e5a52c;
+}
+.content-end {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content-end span {
+    color: #fff;
+    font-size: 12px;
+}
+
+.secondary-inputs_one, .secondary-inputs_two, .input-name {
+    flex:1;
+    padding: 10px;
+}

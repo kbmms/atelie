@@ -1,0 +1,42 @@
+@font-face {
+	font-family: LatoRegular;
+	src: url('../../assets/fonts/Lato/Lato-Regular.ttf')
+}
+@font-face {
+	font-family: LatoBold;
+	src: url('../../assets/fonts/Lato/Lato-Bold.ttf')
+}
+
+/* MAIN CONTENT */
+.box {
+    width: 100%;   
+    max-width: 544px;
+}
+.main-content {
+    background: url('../../assets/images/background-marrom.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content-info {
+    text-align: center;
+
+}
+.main-content-info h4 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: LatoBold;
+}
+.main-content-info p {
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: LatoRegular;
+}
+
+
+
+
+
+
+

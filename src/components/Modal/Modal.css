@@ -1,0 +1,28 @@
+.ui-modal__overlay{
+    position: fixed;
+    background-color: #000000b5;
+    inset:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ui-modal {
+    background-color: #e5a52c;
+    border: 2px solid #8f5c3e;
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.ui-modal button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 17px;
+}

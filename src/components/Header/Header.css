@@ -1,0 +1,45 @@
+.box-header{
+    background: url('../../assets/images/background.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.content-header {
+
+}
+.content-header img {
+    max-width: 350px;
+    width: 100%;
+}
+.image-header {
+    max-width: 600px;
+    width: 100%;
+
+
+}
+.image-header  img {
+    width: 100%;
+    max-width: 600px;
+}
+.btn-sections {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.btn-sections .btnLink {
+    max-width: 150px;
+    width: 100%;
+    padding: 10px 30px;
+    margin: 10px;
+    background: #e5a52c;
+    border:none;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
